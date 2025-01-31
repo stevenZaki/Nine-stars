@@ -1,0 +1,51 @@
+ :root{
+    --main-color: #7a6960;
+    --secondary-color: #4e4039;
+    --button-color: #eb5d1e;
+    --backgr-color: #fef8f5;
+}
+
+
+/* Start Navbar */
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.navbar-brand{
+    color: var(--main-color);
+    font-size: 30px;
+}
+.Home{
+    color: var(--button-color) !important;
+}
+.navbar-nav a{
+    color: var(--secondary-color);   
+    font-size: 15px;
+}
+.navbar-nav a:hover{
+    color: var(--button-color);   
+    font-size: 15px;
+}
+
+.navbar-nav button{
+    font-size: 15px;
+    color: white;
+    background-color: var(--backgr-color);
+}
+
+/* End Navbar */
+
+/* Start Header section */
+.head{
+    background-color: var(--backgr-color);
+    width: auto;
+    height: 70vh;
+    margin-top: 70px;
+}
+
+/* End Header section */
