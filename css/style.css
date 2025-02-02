@@ -3,6 +3,7 @@
     --secondary-color: #4e4039;
     --button-color: #eb5d1e;
     --backgr-color: #fef8f5;
+    --icon-color: #f39e7a;
 }
 h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Raleway", sans-serif;
@@ -70,6 +71,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     padding: 8px 30px 8px 30px;
     font-weight: 500;
     font-size: 16px;
+    border: none;
 }
 
 /* IMG Animation */
@@ -109,7 +111,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .icons svg{
     padding-bottom: 2px;
-    color: var(--button-color);
+    color: var(--icon-color);
 }
 .icons p{
     font-size: 15px;
