@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /* Start services section */
 .services{
     background-color: var(--backgr-color);
-    height: 50vh;
+    height: 65vh;
 }
 
 .services h2{
@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 }
 
-.services p{
+.caption {
     padding-bottom: 15px;
     margin-bottom: 15px;
     position: relative;
@@ -154,4 +154,32 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     bottom: 2px;
     left: 47%;
 }
+
+.ourServices {
+    padding: 15px;
+}
+.ourServices div {
+    background-color: white;
+    width: 255px;
+    height: 275px;
+    padding: 30px;
+    margin: 0 15px;
+    text-align: center;
+
+}
+
+.ourServices svg{
+    color: var(--button-color);
+    height: 35px;
+    width: 35px;
+    margin-bottom: 12px;
+}
+
+.ourServices h4{
+    color:black;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+
 /* End services section */
