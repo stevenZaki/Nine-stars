@@ -68,11 +68,22 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .head button{
     background-color: var(--button-color);
     color: white;
+    font-family: "Raleway", sans-serif;
     padding: 8px 30px 8px 30px;
     font-weight: 500;
     font-size: 16px;
     border: none;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: 0.5s;   
 }
+
+
+.head button:hover{
+    background-color:  #ef7f4d;
+    
+}
+
 
 /* IMG Animation */
 
@@ -145,7 +156,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     position: relative;
 }
 
-.services p::after{
+.caption p::after{
     content: " ";
     background-color: var(--button-color);
     width: 100px;
@@ -165,6 +176,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     padding: 30px;
     margin: 0 15px;
     text-align: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 10px 30spx 0 rgba(68, 88, 144, 0.1);
+
+
+}
+.ourServices div:hover{
+    /* top: -10px;
+   border-bottom-style: solid;
+   border-bottom: -5px; */
+   border-color: var(--button-color);
+   transform: translateY(-5px);
+
 
 }
 
@@ -179,7 +205,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     color:black;
     font-size: 18px;
     margin-bottom: 15px;
-    
+    font-weight: 700;
+    /* font-family: "Raleway", sans-serif; */
 }
 
 /* End services section */
