@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .Portfolio{
     background-color: white;
-    height: 50vh;
+    height: auto;
     text-align: center;
 }
 
@@ -272,6 +272,60 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     color: var(--button-color);
     text-decoration: none;
 }
- 
+
+
 
 /* End Portfolio section */
+
+/* Start FAQ section */
+.faq {
+    padding: 60px 0;
+  }
+  
+  .faq .faq-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .faq .faq-list li {
+    padding: 0 0 20px 25px;
+  }
+  
+  .faq .faq-list a {
+    display: block;
+    position: relative;
+    font-family: #eb5d1e;
+    font-size: 18px;
+    font-weight: 600;
+    color: #eb5d1e;
+  }
+  
+  .faq .faq-list i {
+    font-size: 18px;
+    position: absolute;
+    left: -25px;
+    top: 6px;
+  }
+  
+  .faq .faq-list p {
+    padding-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  
+  .faq .faq-list a.collapse {
+    color: #eb5d1e;
+  }
+  
+  .faq .faq-list a.collapsed {
+    color: #343a40;
+  }
+  
+  .faq .faq-list a.collapsed:hover {
+    color: #eb5d1e;
+  }
+  
+  .faq .faq-list a.collapsed i::before {
+    content: "\eab2" !important;
+  }
+/* End FAQ section */
